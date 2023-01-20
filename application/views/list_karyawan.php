@@ -74,7 +74,7 @@ function get_interval($date){
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <button type="button" class="btn btn-primary waves-effect btn-label waves-light" data-bs-toggle="modal" data-bs-target=".bs-example-modal-xl"><i class="bx bx-user-circle label-icon"></i> Tambah Karyawan</button>
+                                <button type="button" class="btn btn-primary waves-effect btn-label waves-light " data-bs-toggle="modal" data-bs-target=".bs-example-modal-xl"><i class="bx bx-user-circle label-icon"></i> Tambah Karyawan</button>
                                 <button type="button" class="btn btn-success waves-effect btn-label waves-light"><i class="bx bx-save label-icon"></i> Export Excell</button>
                             </div>
                             <div>

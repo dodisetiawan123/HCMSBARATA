@@ -50,15 +50,15 @@
             </div>
 
           
-
+<!-- 
             <div class="dropdown d-none d-sm-inline-block">
                 <button type="button" class="btn header-item" id="mode-setting-btn">
                     <i data-feather="moon" class="icon-lg layout-mode-dark"></i>
                     <i data-feather="sun" class="icon-lg layout-mode-light"></i>
                 </button>
-            </div>
+            </div> -->
 
-            <div class="dropdown d-none d-lg-inline-block ms-1">
+       <!--      <div class="dropdown d-none d-lg-inline-block ms-1">
                 <button type="button" class="btn header-item" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i data-feather="grid" class="icon-lg"></i>
                 </button>
@@ -95,13 +95,13 @@
 
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="dropdown d-inline-block">
+            <!-- <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item noti-icon position-relative" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <i data-feather="bell" class="icon-lg"></i>
+                    <i data-feather="bell" class="icon-lg"></i> -->
                     <!-- <span class="badge bg-danger rounded-pill">0</span> -->
-                </button>
+                <!-- </button>
                 <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
                     <div class="p-3">
                         <div class="row align-items-center">
@@ -122,7 +122,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
             <div class="dropdown d-inline-block">
@@ -133,9 +133,9 @@
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
                     <!-- item-->
-                    <a class="dropdown-item" href="apps-contacts-profile.php"><i class="mdi mdi-face-profile font-size-16 align-middle me-1"></i> <?php echo $language["Profile"]; ?></a>
-                   <a class="dropdown-item" href="auth-lock-screen.php"><i class="mdi mdi-lock font-size-16 align-middle me-1"></i> <?php echo $language["Lock_screen"]; ?></a>
-                    <div class="dropdown-divider"></div>
+                    <!-- <a class="dropdown-item" href="apps-contacts-profile.php"><i class="mdi mdi-face-profile font-size-16 align-middle me-1"></i> <?php echo $language["Profile"]; ?></a>
+                   <a class="dropdown-item" href="auth-lock-screen.php"><i class="mdi mdi-lock font-size-16 align-middle me-1"></i> <?php echo $language["Lock_screen"]; ?></a> -->
+                    <!-- <div class="dropdown-divider"></div> -->
                     <a class="dropdown-item" href="<?php echo site_url('auth/logout') ?>"><i class="mdi mdi-logout font-size-16 align-middle me-1"></i> <?php echo $language["Logout"]; ?></a>
                 </div>
             </div>
@@ -197,7 +197,7 @@
 
 
                    
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button">
                             <i data-feather="settings"></i><span data-key="t-extra-pages">Control Panel</span>
                             <div class="arrow-down"></div>
@@ -209,7 +209,7 @@
                             <a href="apps-calendar.php" class="dropdown-item" data-key="t-calendar">Setting</a>
                            
                         </div>
-                    </li>
+                    </li> -->
                      <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-more" role="button">
                             <i data-feather="check-circle"></i><span data-key="t-extra-pages">Approval</span>

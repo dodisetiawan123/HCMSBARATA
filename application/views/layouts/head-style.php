@@ -17,4 +17,34 @@
 		    background-color: #1e27e1;
 		    border-color: #6266b0;
 		}
+        .container-fluid, .navbar-header{
+            max-width: 95% !important;
+
+        }
+        .topnav .navbar-nav .nav-link {
+            font-size: .79rem !important;
+            position: relative;
+            padding: 1rem 1.3rem;
+            color: #545a6d;
+            font-weight: 500;
+        }
+        .btn{
+            font-size: .79rem;
+        }
+        body{
+            font-size: .80rem !important;
+            color: #090a0a !important;
+        }
+        .dropdown-menu {
+            font-size: .80rem !important;
+        }
+        .header-item {
+            height: 50px !important;
+        }
+        .navbar-header {
+            height: 50px !important;
+        }
+        .topnav {
+            margin-top: 50px !important;
+        }
  </style>
